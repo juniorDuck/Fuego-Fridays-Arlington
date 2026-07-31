@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Gamepad2, Briefcase } from "lucide-react";
-import ThreeBackground from "@/components/ThreeBackground";
 
 const NAME = "Justin Schultz";
 
@@ -10,10 +9,6 @@ export default function Landing() {
 
   return (
     <div className="relative flex h-dvh w-full overflow-hidden bg-background text-foreground">
-      {/* Three.js background */}
-      <div className="pointer-events-none absolute inset-0 z-0">
-        <ThreeBackground />
-      </div>
 
       {/* Center identity */}
       <div className="pointer-events-none absolute inset-0 z-10 flex flex-col items-center justify-center gap-2">
