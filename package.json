@@ -21,13 +21,16 @@
     "radix-ui": "^1.6.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwind-merge": "^2.6.0"
+    "react-router-dom": "^7.6.0",
+    "tailwind-merge": "^2.6.0",
+    "three": "^0.170.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0",
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
+    "@types/three": "^0.170.0",
     "@vitejs/plugin-react": "^4.3.4",
     "tailwindcss": "^4.0.0",
     "tw-animate-css": "^1.2.0",
